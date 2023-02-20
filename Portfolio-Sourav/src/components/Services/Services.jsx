@@ -20,11 +20,15 @@ function Services() {
           MERN Stack Development <br /> ( Frontend & Backend )
         </span>
         <div>
-          <a href={Resume} download>
-            <button className="button s-button">Download Resume</button>
+          <a
+            href={
+              "https://drive.google.com/drive/folders/1t35w0Y0FbuhEPf0RLv0YoI94ldFtgZ_b?usp=sharing"
+            }
+            target="_blank"
+          >
+            <button className="button s-button">Resume</button>
           </a>
         </div>
-        {/* <div className="blur s-blur1" style={{ background:"#ABF1FF94" }}></div> */}
       </div>
       <div className="cards">
         <div style={mode ? { color: "#F5C32C" } : lightmode}>

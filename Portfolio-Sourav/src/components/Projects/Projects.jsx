@@ -6,7 +6,8 @@ import React, { useContext } from "react";
 import "./Projects.css";
 import PharmaEasy from "./pharmaeasy.png";
 import Nykaa from "./nykaaclone1.png";
-import Indeed from "./indeeed.png";
+import Nike from "./nike.png";
+import Policybazaar from "./policybazaar.png";
 import Greenhouse from "./Gh_HomePage.jpg";
 import { themeContext } from "../../Context";
 function Projects() {
@@ -16,30 +17,58 @@ function Projects() {
   return (
     <div className="projects" id="projects">
       <h1 className="p-title">PROJECTS</h1>
-      {/* <div className="project">
-        <h1 className="project-heading">PharmaEasy Clone</h1>
+      {/*  */}
+      <div className="project">
+        <h1 className="project-heading">Nike</h1>
         <div className="project1">
           <div className="project-video-div">
             <div className="project-lang">
-            <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react"/>
-            <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" alt="redux"/>
-            <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="material-ui" />
-            <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="styles-components" />
-            <img src="https://img.shields.io/badge/-Chakra-green" alt="chakra" /> 
               <img
-                src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"
-                alt="json"
+                src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                alt="react"
+              />
+              <img
+                src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+                alt="redux"
+              />
+              <img
+                src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white"
+                alt="chakra-ui"
+              />
+              <img
+                src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+                alt="Node"
+              />
+              <img
+                src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+                alt="Express"
+              />
+              <img
+                src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"
+                alt="JWT"
+              />
+              <img
+                src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+                alt="mongodb"
               />
             </div>
             <div className="project-video-div-for-media">
-             
-              <img src={PharmaEasy} alt="PharmaEasy" style={{width:"100%", height:"100%",margin:"20px 0px",border:"1px solid gray"}}></img>
+              <img
+                src={Nike}
+                alt="Nike"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  margin: "20px 0px",
+                  border: "1px solid gray",
+                }}
+              ></img>
             </div>
             <div className="goto-button-div">
               <button className="button">
                 <a
                   className="button-goto"
-                  href="https://pharmeasymuntazir.netlify.app/"
+                  href="https://nike-clone-srv.vercel.app"
                   target="_blank"
                 >
                   LIVE
@@ -48,7 +77,7 @@ function Projects() {
               <button className="button">
                 <a
                   className="button-goto"
-                  href="https://github.com/FaizanWani133/pharmaeasy-clone"
+                  href="https://github.com/sourav215/Nike"
                   target="_blank"
                 >
                   GitHub Repo
@@ -58,29 +87,130 @@ function Projects() {
           </div>
           <div className="project-about-div">
             <h1 className="p-div">
-            Here you can buy Medicines and Personal Heathcare Products.
+              This project is a clone of "Nike.com" with Backend integration
+              which is an e-commerce store.
             </h1>
             <h1 className="p-div">Features</h1>
-            <ul className="p-details" style={mode?{color:"lightgray"}:lightmode}>
-              <li>Sign Up | Login | All Medincines and Heathcare products Page - with Filter & Sort Functionality</li>
-              <li>Single Product Page (dynamic) along with Add To Cart Feature</li>
+            <ul
+              className="p-details"
+              style={mode ? { color: "lightgray" } : lightmode}
+            >
+              <li>Login and Signup User Account</li>
+              <li>Authentication | Authorization</li>
+              <li>Mens, Womens and Kids Section with Sort and Filters</li>
+              <li>Cart Add and Remove Items</li>
               <li>Checkout | Payment Page along with all Functionality</li>
             </ul>
             <h1 className="p-div">Areas of responsibility</h1>
-            <ul className="p-details" style={mode?{color:"lightgray"}:lightmode}>
-              <li>Lead the Team and Manage the Project</li>
-              <li>
-              Developed Single Product Page | Footer Page along with all Functionality
-              </li>
-              <li>Developed Checkout Page along with all Functionality</li>
-              <li>Developed Backend for Web App</li>
+            <ul
+              className="p-details"
+              style={mode ? { color: "lightgray" } : lightmode}
+            >
+              <li>Implemented all the Functionalities</li>
+              <li>Developed Backend for App</li>
+              <li>Deployment of Project</li>
             </ul>
             <h1 className="p-div">
-              A collaborative project built by 5 Developers within 7 days.
+              It’s my major project where I've used MERN stack to make this
+              website.
             </h1>
           </div>
         </div>
-      </div> */}
+      </div>
+
+      {/*  */}
+      <div className="project">
+        <h1 className="project-heading">Policy Bazaar</h1>
+        <div className="project1">
+          <div className="project-video-div">
+            <div className="project-lang">
+              <img
+                src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                alt="react"
+              />
+              <img
+                src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+                alt="redux"
+              />
+
+              <img
+                src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white"
+                alt="chakra-ui"
+              />
+              <img
+                src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"
+                alt="material-ui"
+              />
+              <img
+                src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"
+                alt="json"
+              />
+            </div>
+            <div className="project-video-div-for-media">
+              <img
+                src={Policybazaar}
+                alt="PharmaEasy"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  margin: "20px 0px",
+                  border: "1px solid gray",
+                }}
+              ></img>
+            </div>
+            <div className="goto-button-div">
+              <button className="button">
+                <a
+                  className="button-goto"
+                  href="https://policy-bazaar-clone.vercel.app/"
+                  target="_blank"
+                >
+                  LIVE
+                </a>
+              </button>
+              <button className="button">
+                <a
+                  className="button-goto"
+                  href="https://github.com/Nagendrapasala/PolicyBazaar"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="project-about-div">
+            <h1 className="p-div">
+              Policy Bazaar is a website where users can purchase policies and
+              insurances related to health, car, and several other amenities.
+            </h1>
+            <h1 className="p-div">Features</h1>
+            <ul
+              className="p-details"
+              style={mode ? { color: "lightgray" } : lightmode}
+            >
+              <li>Home Page</li>
+              <li>Sign Up | Login</li>
+              <li>Policies Details Page</li>
+              <li>Checkout | Payment Page along with all Functionality</li>
+            </ul>
+            <h1 className="p-div">Areas of responsibility</h1>
+            <ul
+              className="p-details"
+              style={mode ? { color: "lightgray" } : lightmode}
+            >
+              <li>Manage the Project | Deployment of Project</li>
+              <li>Login and SignUp functionality</li>
+              <li>Developed Checkout Page </li>
+              {/* <li>Developed Backend for Web App</li> */}
+            </ul>
+            <h1 className="p-div">
+              A collaborative project built by 5 Developers within 1 week.
+            </h1>
+          </div>
+        </div>
+      </div>
+      {/*  */}
       <div className="project">
         <h1 className="project-heading">Nykaa Clone</h1>
         <div className="project1">
@@ -152,9 +282,7 @@ function Projects() {
               <li> Landing Page | Home Page | Sign Up | Login</li>
               <li>Products Page</li>
               <li>Filter & Sort Products according to your need</li>
-              <li>
-                Add To Cart Page | Add Products in Cart | Checkout
-              </li>             
+              <li>Add To Cart Page | Add Products in Cart | Checkout</li>
 
               <li>Checkout and Payment Page along with all Functionality</li>
             </ul>
@@ -163,17 +291,13 @@ function Projects() {
               className="p-details"
               style={mode ? { color: "lightgray" } : lightmode}
             >
-              <li>
-                Sign Up and Login Functionality 
-              </li>
-              <li>
-                Developed Products Page with filter, sort functionality{" "}
-              </li>  
+              {/* <li>Sign Up and Login Functionality</li>
+              <li>Creating data for website</li> */}
               <li>
                 Developed Checkout & Payment Page along with all Functionality |
                 Add Address and Apply Coupon Feature
               </li>
-              <li>Developed Backend for Web App using JSON-Server</li>            
+              <li>Developed Backend for Web App using JSON-Server</li>
             </ul>
             <h1 className="p-div">
               A collaborative project built by 5 Developers within 6 days.

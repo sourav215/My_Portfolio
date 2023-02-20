@@ -14,25 +14,18 @@ import {
   SiRedux,
   SiChakraui,
   SiMaterialui,
-  SiBootstrap,
-  SiStyledcomponents,
   SiVisualstudiocode,
   SiPostman,
   SiNpm,
   SiYarn,
   SiGithub,
-  SiCanva,
   SiNetlify,
   SiVercel,
-  SiHeroku,
-  SiReplit,
   SiCodepen,
   SiCodesandbox,
-  SiMiro,
-  SiNotion,
   SiMongodb,
   SiExpress,
-  SiJson
+  SiJson,
 } from "react-icons/si";
 import { themeContext } from "../../Context";
 
@@ -51,16 +44,15 @@ const StyledDivForSkills = styled.div`
 
   &:hover {
     transform: scale(1.2);
-    & > .html-icon{
+    & > .html-icon {
       // color: orange;
     }
   }
-  
 `;
 
 function Skills() {
-  const {theme,mode,toggle}  = useContext(themeContext);
-   const {darkmode,lightdarkmode,lightmode} = theme;
+  const { theme, mode, toggle } = useContext(themeContext);
+  const { darkmode, lightdarkmode, lightmode } = theme;
   return (
     <div className="skills" id="skills">
       <h1 className="s-heading">
@@ -79,63 +71,117 @@ function Skills() {
           {/* <SkillCard url='https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png' text="NodeJs" /> */}
           <StyledDivForSkills>
             <FaHtml5 size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">HTML</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              HTML
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <FaCss3Alt size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">CSS</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              CSS
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <DiJavascript1 size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">JavaScript</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              JavaScript
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <FaReact size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">React</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              React
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiRedux size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Redux</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Redux
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <FaNodeJs size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">NodeJs</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              NodeJs
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiExpress size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">ExpressJs</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              ExpressJs
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiMongodb size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">MongoDB</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              MongoDB
+            </span>
           </StyledDivForSkills>
-        
-        
+
           {/* <SkillCard url='https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg' text='Chakra-UI' /> */}
           {/* <SkillCard url='https://mui.com/static/logo.png' text='Material-UI' /> */}
           {/* <SkillCard url="https://gozattila.dev/static/media/styled_components.a46dc006.png" text='Styled-Components' /> */}
           {/* <SkillCard url='https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png' text='Bootstrap' /> */}
           <StyledDivForSkills>
             <SiJson size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">JSON-Server</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              JSON-Server
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiChakraui size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Chakra-UI</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Chakra-UI
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiMaterialui size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Material-UI</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Material-UI
+            </span>
           </StyledDivForSkills>
-          <StyledDivForSkills>
+          {/* <StyledDivForSkills>
             <SiStyledcomponents size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Styled-Components</span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiBootstrap size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Bootstrap</span>
-          </StyledDivForSkills>
-          </div>
+          </StyledDivForSkills> */}
+        </div>
         <h1 className="tools-heading">
           Tools{" "}
           <span
@@ -160,68 +206,113 @@ function Skills() {
           {/* <SkillCard url="https://uploads.sitepoint.com/wp-content/uploads/2016/04/1461122387heroku-logo.jpg" text="Heroku" /> */}
           <StyledDivForSkills>
             <SiVisualstudiocode size={"70px"} className="html-icon" />
-            <span className="html-text" >VS Code</span>
+            <span className="html-text">VS Code</span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <FaGitAlt size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Git</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Git
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiPostman size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Postman</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Postman
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiNpm size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">NPM</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              NPM
+            </span>
           </StyledDivForSkills>
-          <StyledDivForSkills>
+          {/* <StyledDivForSkills>
             <SiYarn size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Yarn</span>
-          </StyledDivForSkills>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Yarn
+            </span>
+          </StyledDivForSkills> */}
           <StyledDivForSkills>
             <SiGithub size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">GitHub</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              GitHub
+            </span>
           </StyledDivForSkills>
-          <StyledDivForSkills>
+          {/* <StyledDivForSkills>
             <SiCanva size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Canva</span>
-          </StyledDivForSkills>
+          </StyledDivForSkills> */}
           <StyledDivForSkills>
             <SiNetlify size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Netlify</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Netlify
+            </span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiVercel size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Vercel</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Vercel
+            </span>
           </StyledDivForSkills>
-          <StyledDivForSkills>
+          {/* <StyledDivForSkills>
             <SiHeroku size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Heroku</span>
-          </StyledDivForSkills>
-          <StyledDivForSkills>
+          </StyledDivForSkills> */}
+          {/* <StyledDivForSkills>
             <SiReplit size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Replit</span>
-          </StyledDivForSkills>
+          </StyledDivForSkills> */}
           <StyledDivForSkills>
             <SiCodesandbox size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Codesandbox</span>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Codesandbox
+            </span>
           </StyledDivForSkills>
-          <StyledDivForSkills>
+          {/* <StyledDivForSkills>
             <SiCodepen size={"70px"} className="html-icon" />
-            <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Codepen</span>
-          </StyledDivForSkills>
-          <StyledDivForSkills>
+            <span
+              style={mode ? { color: "#FCA61F" } : lightmode}
+              className="html-text"
+            >
+              Codepen
+            </span>
+          </StyledDivForSkills> */}
+          {/* <StyledDivForSkills>
             <SiMiro size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Miro</span>
-          </StyledDivForSkills>
-          <StyledDivForSkills>
+          </StyledDivForSkills> */}
+          {/* <StyledDivForSkills>
             <SiNotion size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Notion</span>
           </StyledDivForSkills>
           <StyledDivForSkills>
             <SiMongodb size={"70px"} className="html-icon" />
             <span style={mode?{color:"#FCA61F"}:lightmode} className="html-text">Atlas</span>
-          </StyledDivForSkills>
+          </StyledDivForSkills> */}
         </div>
         {/* <div className="blur blur-s2" style={{ background:"var(--purple)" }}></div> */}
       </div>

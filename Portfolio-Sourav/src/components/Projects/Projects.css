@@ -22,7 +22,7 @@
 .project-heading{
     text-align: center;
     padding: 20px 0;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 1.3rem;
     letter-spacing: 2px;
     text-transform: uppercase;

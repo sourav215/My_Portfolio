@@ -10,9 +10,9 @@ const StyledDiv = styled.div`
   // margin-bottom: 80px;
   position: relative;
   margin-left: -3.5rem;
-    margin-right: -3.5rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+  margin-right: -3.5rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 
   & > div {
     position: fixed;
@@ -25,9 +25,7 @@ const StyledDiv = styled.div`
     margin-right: -3.5rem;
     // padding-left: 3.5rem;
     padding-right: 3.5rem;
-    
   }
-
 
   & > div > div > ul {
     list-style-type: none;
@@ -51,52 +49,73 @@ const StyledDiv = styled.div`
   }
 `;
 
-function DropDownContent({handleDropDownBtnClick}) {
+function DropDownContent({ handleDropDownBtnClick }) {
   return (
     <StyledDiv>
       <div>
-      <div>
-        <ul>
-          <li>
-            <Link activeClass="active" to="intro" spy={true} smooth={true} onClick={handleDropDownBtnClick}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="about" spy={true} smooth={true} onClick={handleDropDownBtnClick}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" spy={true} smooth={true} onClick={handleDropDownBtnClick}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="projects" spy={true} smooth={true} onClick={handleDropDownBtnClick}>
-              Projects
-            </Link>
-          </li>
-          <a
-            // href="https://drive.google.com/drive/folders/1W7KnyfDoAS4MAoRxBGg5DyQ3ITr2-WMA?usp=sharing"
-            href="#"
-            target="blank" onClick={handleDropDownBtnClick}
+        <div>
+          <ul>
+            <li>
+              <Link
+                activeClass="active"
+                to="intro"
+                spy={true}
+                smooth={true}
+                onClick={handleDropDownBtnClick}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                onClick={handleDropDownBtnClick}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                onClick={handleDropDownBtnClick}
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                onClick={handleDropDownBtnClick}
+              >
+                Projects
+              </Link>
+            </li>
+            <a
+              href="https://drive.google.com/drive/folders/1t35w0Y0FbuhEPf0RLv0YoI94ldFtgZ_b?usp=share_link"
+              target="blank"
+              onClick={handleDropDownBtnClick}
+            >
+              <li>Resume</li>
+            </a>
+          </ul>
+        </div>
+        <button className="button">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            style={{ fontSize: "16px" }}
+            onClick={handleDropDownBtnClick}
           >
-            <li>Resume</li>
-          </a>
-        </ul>
-      </div>
-      <button className="button">
-        <Link
-          to="contact"
-          spy={true}
-          smooth={true}
-          style={{ fontSize: "16px" }}
-          onClick={handleDropDownBtnClick}
-        >
-          Contact
-        </Link>
-      </button>
+            Contact
+          </Link>
+        </button>
       </div>
     </StyledDiv>
   );

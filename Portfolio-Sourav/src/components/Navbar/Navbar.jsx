@@ -49,7 +49,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <a
-                href="https://drive.google.com/file/d/1Ga2FTLRAlUSBVR4KadVuiTXVhZ4EJkFr/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1t35w0Y0FbuhEPf0RLv0YoI94ldFtgZ_b?usp=sharing"
                 target="_blank"
               >
                 <li>Resume</li>
