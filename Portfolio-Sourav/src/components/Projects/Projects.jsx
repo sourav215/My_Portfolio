@@ -119,7 +119,7 @@ function Projects() {
       </div>
 
       {/*  */}
-      <div className="project">
+      {/* <div className="project">
         <h1 className="project-heading">Policy Bazaar</h1>
         <div className="project1">
           <div className="project-video-div">
@@ -202,16 +202,16 @@ function Projects() {
               <li>Manage the Project | Deployment of Project</li>
               <li>Login and SignUp functionality</li>
               <li>Developed Checkout Page </li>
-              {/* <li>Developed Backend for Web App</li> */}
+             
             </ul>
             <h1 className="p-div">
               A collaborative project built by 5 Developers within 1 week.
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*  */}
-      <div className="project">
+      {/* <div className="project">
         <h1 className="project-heading">Nykaa Clone</h1>
         <div className="project1">
           <div className="project-video-div">
@@ -291,8 +291,7 @@ function Projects() {
               className="p-details"
               style={mode ? { color: "lightgray" } : lightmode}
             >
-              {/* <li>Sign Up and Login Functionality</li>
-              <li>Creating data for website</li> */}
+             
               <li>
                 Developed Checkout & Payment Page along with all Functionality |
                 Add Address and Apply Coupon Feature
@@ -304,7 +303,7 @@ function Projects() {
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="project">
         <h1 className="project-heading">Greenhouse Clone</h1>
         <div className="project2">

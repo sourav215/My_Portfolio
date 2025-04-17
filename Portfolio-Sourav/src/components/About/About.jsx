@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../Context";
 import "./About.css";
-import Profilefic from "./gmailprofile-modified.png";
+import Profilefic from "../../img/profilepic.png";
 
 function About() {
   const { theme, mode, toggle } = useContext(themeContext);
@@ -11,6 +11,9 @@ function About() {
   }, []);
   return (
     <div className="about" id="about">
+      <div className="a-img">
+          <img src={Profilefic} alt="profile" className="profileImg" />
+        </div>
       <div className="a-div">
         <div className="a-text">
           <h1 className="a-head" style={mode ? darkmode : lightmode}>
@@ -22,7 +25,7 @@ function About() {
               src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
               alt=""
             />{" "}
-            I'm <span>SOURAV JANA</span>{" "}
+            I'm <span>Sourav Jana</span>{" "}
             <img
               src="https://user-images.githubusercontent.com/97526754/173172254-697ba77e-bed8-4ffc-b1d1-2c20ede245b0.gif"
               alt=""
@@ -46,9 +49,9 @@ function About() {
             and enhancing my skills and knowledge as a developer.
           </span>
         </div>
-        <div className="a-img">
+        {/* <div className="a-img">
           <img src={Profilefic} alt="profile" className="profileImg" />
-        </div>
+        </div> */}
       </div>
       <h1 className="blinking-text">
         <a
